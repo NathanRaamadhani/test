@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group products| e-comerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="image/logos.png" width="150px">
+            </div>
+            <nav>
+                <ul id="Menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href=" ">About</a></li>
+                    <li><a href=" ">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="image/cart.png " width="30px " height="30px ">
+            <img src="image/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>all products</h2>
+            <select>
+                <option>default shorting</option>
+                <option>short by price</option>
+                <option>short by popularity</option>
+                <option>short by rating</option>
+                <option>short by sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="image/product-1.jpg">
+                <h1>Red Printed T-shirt by HRX </h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rp 720.000,00</p>
+            </div>
+            <div class="col-4">
+                <img src="image/product-2.jpg">
+                <h1>HRX by Hrithik Roshan Walking Shoes For Men </h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rp 285.000,00</p>
+            </div>
+            <div class="col-4">
+                <img src="image/product-3.jpg">
+                <h1>Track Pant </h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Rp 100.000,00</p>
+            </div>
+            <div class="col-4">
+                <img src="image/product-4.jpg">
+                <h1>Navy Printed T-Shirt by HRX </h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Rp 431.000,00</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="image/product-5.jpg">
+                    <h1>HRX by Hrithik Roshan Grey Shoes</h1>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>Rp 718.000,00</p>
+                </div>
+                <div class="col-4">
+                    <img src="image/product-6.jpg">
+                    <h1>Puma Poly T-Shirt</h1>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rp 285.000,00</p>
+                </div>
+                <div class="col-4">
+                    <img src="image/product-7.jpg">
+                    <h1>HRX Shock </h1>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p>Rp 215.000,00</p>
+                </div>
+                <div class="col-4">
+                    <img src="image/product-8.jpg">
+                    <h1>Fossil Grant Chronograph Watch </h1>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>Rp 8.415.000,00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="image/product-9.jpg">
+                    <h1>Analog Wrist Watch with Sub-Second Dial </h1>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rp 615.000,00</p>
+                </div>
+                <div class="col-4">
+                    <img src="image/product-10.jpg">
+                    <h1>HRX Shoes Outdoor for Man</h1>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rp 575.000,00</p>
+                </div>
+                <div class="col-4">
+                    <img src="image/product-11.jpg">
+                    <h1>Slip Shoes Grey </h1>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p>Rp 1.437.000,00</p>
+                </div>
+                <div class="col-4">
+                    <img src="image/product-12.jpg">
+                    <h1>Nike Sportswear Men's Fleece Trousers</h1>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>Rp 953.000,00</p>
+                </div>
+            </div>
+
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="image/play-store.png">
+                        <img src="image/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="image/logos.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliale</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twiter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022-Nathan Ramadhani</p>
+        </div>
+    </div>
+
+
+    <script>
+        var Menuitems = document.getElementById("Menuitems");
+
+        Menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (Menuitems.style.maxHeight == "0px") {
+                Menuitems.style.maxHeight = "200px";
+            } else {
+                Menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
